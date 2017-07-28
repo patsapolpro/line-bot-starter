@@ -30,7 +30,7 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดี"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "เรื่องที่คุณถ้าฉันได้มีดังนี้ \n1. สวัสดี\n2.ชื่ออะไร\n3.ทำอะไรได้บ้าง\nฉันถูก set ค่าไว้เท่านี้";
+  $arrPostData['messages'][0]['text'] = "เรื่องที่คุณถามฉันได้มีดังนี้ \n1. สวัสดี\n2.ชื่ออะไร\n3.ทำอะไรได้บ้าง\nฉันถูก set ค่าไว้เท่านี้";
 }else{
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
