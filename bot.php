@@ -1,6 +1,6 @@
 <?php
  
-$strAccessToken = "ACCESS_TOKEN";
+$strAccessToken = "NDEUxN2cA7G211MLwrhdnR2MvK8hvIYkrzKK6DpoaCcTLZRi0TU/Q9ibDuCQhQ39vstsHh1zyaw5R67izZl2/2hypTZAHJ+xTqWF+/zJAKOLpnzaUJ7yPuVuIZLvENKxl29emIhX6bYAYQCbYv8jPQdB04t89/1O/w1cDnyilFU=";
  
 $content = file_get_contents('php://input');
 $arrJson = json_decode($content, true);
