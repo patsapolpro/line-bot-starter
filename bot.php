@@ -14,10 +14,6 @@ if (!is_null($events['events'])) {
 			// Get text sent
 			$text = $event['message']['text'];
 			
-			if($event['message']['text'] == 'วิธีการใช้'){
-				$text = 'ไม่บอกหรอก (แบร่)'
-			}
-			
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 
